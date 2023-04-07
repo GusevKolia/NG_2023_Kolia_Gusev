@@ -17,4 +17,4 @@ else:
     else:
         x1 = (-b + math.sqrt(delta)) / (2*a)
         x2 = (-b - math.sqrt(delta)) / (2*a)
-        print("The equation has two roots: x1 = {x1}, x2 = {x2}")
+        print(f"The equation has two roots: x1 = {x1}, x2 = {x2}")
