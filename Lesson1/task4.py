@@ -1,20 +1,20 @@
 import math
 
-a = float(input("Введіть коефіцієнт a: "))
-b = float(input("Введіть коефіцієнт b: "))
-c = float(input("Введіть коефіцієнт c: "))
+a = float(input("Enter the coefficient a: "))
+b = float(input("Enter the coefficient b: "))
+c = float(input("Enter the coefficient c: "))
 
 if a == 0:
-    print("Це не квадратне рівняння.")
+    print("This is not a quadratic equation.")
 else:
     delta = b**2 - 4*a*c
 
     if delta < 0:
-        print("Рівняння не має дійсних коренів.")
+        print("The equation has no real roots.")
     elif delta == 0:
         x = -b / (2*a)
-        print(f"Рівняння має один корінь: x = {x}")
+        print(f"The equation has one root: x = {x}")
     else:
         x1 = (-b + math.sqrt(delta)) / (2*a)
         x2 = (-b - math.sqrt(delta)) / (2*a)
-        print(f"Рівняння має два корені: x1 = {x1}, x2 = {x2}")
+        print("The equation has two roots: x1 = {x1}, x2 = {x2}")
