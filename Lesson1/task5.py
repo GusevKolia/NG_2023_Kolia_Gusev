@@ -1,3 +1,3 @@
-n = int(input("Введите количество элементов: "))
-input("Нажмите Enter для продолжения...")
-print("Количество элементов:", n)
+n = int(input("Enter the number of items: "))
+input("Press Enter to continue...")
+print("Number of elements:", n)
