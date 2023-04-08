@@ -1,3 +1,3 @@
-elements = input("Введите элементы через пробел: ").split()
+elements = input("Enter items separated by a space: ").split()
 unique_elements = set(elements)
-print("Уникальные элементы:", unique_elements)
+print("Unique elements:", unique_elements)
